@@ -18,7 +18,7 @@ fetch(URL + 'platos')
                 fila.innerHTML = '<td>' + plato.codigo + '</td>' +
                     '<td>' + plato.descripcion + '</td>' +
                     '<td align="right">' + plato.cantidad + '</td>' + 
-                    '<td align="right">' + plato.precio + '</td>';
+                    '<td align="right">'+ "$"+ plato.precio + '</td>';
                 tablaPlatos.appendChild(fila);
                 } 
         }) 

@@ -87,13 +87,13 @@ label {
 }
 
 #tabla-lista > thead > tr > th{
-    font-size: 20px;
+    font-size: 13px;
     padding: 2em 8em;
     letter-spacing: 5px;
 }
 
 #tabla-lista > tbody{
-    font-size: 25px;
+    font-size: 15px;
     background-color: #00000094;
     text-align: center;
 }
