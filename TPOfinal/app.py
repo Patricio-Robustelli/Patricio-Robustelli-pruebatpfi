@@ -82,7 +82,7 @@ app = Flask(__name__)
 CORS(app)
 
 #menu = Menu(host='localhost', user = 'root', password = '', database = 'menuplatos')
-menu = Menu(host='aguscodo.mysql.pythonanywhere-services.com', user = 'aguscodo', password = 'kitchen23532', database = 'aguscodo$miapp')
+menu = Menu(host='patorobustelli.mysql.pythonanywhere-services.com', user = 'patorobustelli', password = 'Valen2016+', database = 'patorobustelli$menuplatos')
 
 @app.route("/", methods=["GET"])
 def home():
